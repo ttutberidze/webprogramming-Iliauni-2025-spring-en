@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+.wrapper {
+    background-color: #f1f1f1;
+    color: black;
+}
+.container {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 16px;
+}
+.sidebar {
+    flex: 1;
+    border: 1px solid #757575;
+    background-color: #FFFFFF;
+}
+.profile {
+    position: relative;
+}
+.profile h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+img {
+    width: 100%;
+}
+.personal-info {
+    padding: 20px;
+    color: #757579;
+}
+i {
+    color: #009688;
+    margin-right: 8px;
+}
+hr {
+    border-color: rgb(238, 235, 235);
+}
+.skills {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.progress-wrapper {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+}
+.progress-bar {
+    background-color: #009688;
+    color: white;
+    padding: 2px;
+    border-radius: 16px;
+    text-align: center;
+}
+.content {
+    border: 1px solid #757575;
+    background-color: #FFFFFF;
+    flex: 2;
+    color: #757575;
+}
+.content h1 {
+    padding-left: 10px;
+}
+.work-item {
+    /*padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px 20px 10px 20px;*/
+
+    margin: 10px 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.work-item .title {
+    font-size: 18px;
+    color: #757575;
+}
+.work-item .calendar {
+    color: #009688;
+}
+.work-item .description {
+    color: black;
+}
+.chip {
+    padding: 2px 6px;
+    background-color: #009688;
+    color: white;
+    border-radius: 4px;
+}
