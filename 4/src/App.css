@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+.user {
+  border: 1px solid lime;
+  margin: 20px;
+  padding: 30px;
+}
