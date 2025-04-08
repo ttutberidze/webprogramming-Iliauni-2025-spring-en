@@ -8,7 +8,7 @@ function App() {
   const [value, setValue] = useState(10)
   const inputRef = useRef()
   const numberRef = useRef(1)
-console.log(numberRef.current)
+
   useEffect(() => {
     inputRef.current.focus()
     // console.log('Component has mounted')
