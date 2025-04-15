@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+div {
+  border: 1px solid lightblue
+}
+.wrapper {
+  display: flex;
+}
+.sidebar {
+  flex: 1
+}
+.content {
+ flex: 3
+}
+.active {
+  background-color: lime;
+}
